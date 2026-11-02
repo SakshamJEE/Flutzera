@@ -134,7 +134,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
 }
 .site-header.is-scrolled { box-shadow: 0 1px 0 var(--rule); }
 .site-header__inner { display: flex; align-items: center; gap: var(--s4); min-height: 4.75rem; }
-.wordmark { display: inline-flex; align-items: center; gap: .45rem; text-decoration: none; color: var(--forest); font-family: var(--heading); font-size: 1.6rem; font-style: italic; font-weight: 600; letter-spacing: -0.01em; }
+.wordmark { display: inline-flex; align-items: center; gap: .45rem; text-decoration: none; color: var(--forest); font-family: var(--heading); font-size: 1.6rem; font-weight: 600; letter-spacing: -0.01em; }
 .wordmark svg { width: 1.1rem; height: 1.5rem; color: var(--olive); }
 .site-nav { margin-left: auto; }
 .site-nav__list { display: flex; gap: clamp(var(--s3), 2.5vw, var(--s5)); }
