@@ -1,0 +1,24 @@
+{
+  "name": "Flutzera",
+  "tagline": "Independent studio & shop",
+  "description": "Flutzera is an independent creative studio and digital shop — design work, ebooks, templates and resources for people building calm, lasting creative practices.",
+  "currency": "usd",
+  "email": "hello@example.com",
+  "businessEmail": "studio@example.com",
+  "location": "Working remotely, worldwide",
+  "socials": [
+    { "label": "Instagram", "url": "https://instagram.com/" },
+    { "label": "Behance", "url": "https://www.behance.net/" },
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/" },
+    { "label": "Pinterest", "url": "https://pinterest.com/" }
+  ],
+  "projectCategories": ["Brand Identity", "Editorial", "Illustration", "Digital"],
+  "productCategories": [
+    { "id": "ebooks", "label": "Ebooks" },
+    { "id": "templates", "label": "Digital Templates" },
+    { "id": "guides", "label": "Guides" },
+    { "id": "resources", "label": "Resources" },
+    { "id": "future", "label": "Future Products" }
+  ],
+  "download": { "days": 30, "maxPerFile": 10 }
+}

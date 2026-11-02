@@ -1,0 +1,9 @@
+node_modules
+.env
+data/*.json
+data/*.jsonl
+.claude/
+.impeccable/hook.cache.json
+# Paid product files: never commit them (a public repo would give them away)
+private/downloads/*
+!private/downloads/README.md

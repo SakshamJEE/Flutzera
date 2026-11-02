@@ -1,0 +1,191 @@
+[
+  {
+    "id": "quiet-studio",
+    "slug": "the-quiet-studio",
+    "title": "The Quiet Studio",
+    "category": "ebooks",
+    "price": 2400,
+    "tone": "forest",
+    "featured": true,
+    "summary": "Eleven essays on building an independent creative practice that grows slowly and lasts.",
+    "description": [
+      "The Quiet Studio is a collection of essays written over five years of running a one-person studio. It covers the unglamorous parts of creative independence: choosing work, protecting attention, pricing with confidence and letting a body of work compound.",
+      "It is not a hustle manual. It is a companion for the long middle of a creative career, when the early excitement has settled and you want something more durable."
+    ],
+    "includes": ["148-page ebook (PDF + EPUB)", "Printable reflection worksheets", "Reading list of 30 books that shaped the essays"],
+    "info": { "Format": "PDF, EPUB", "Length": "148 pages", "File size": "18 MB", "License": "Personal use" },
+    "file": "the-quiet-studio.zip"
+  },
+  {
+    "id": "slow-growth",
+    "slug": "slow-growth",
+    "title": "Slow Growth",
+    "category": "ebooks",
+    "price": 1900,
+    "tone": "sage",
+    "featured": false,
+    "summary": "A practical handbook for turning creative skills into a small, sustainable income.",
+    "description": [
+      "Slow Growth walks through building a creative business one layer at a time: a clear offer, a small audience that trusts you, and products that keep earning while you make new work.",
+      "Every chapter ends with a short exercise, so you finish the book with a plan rather than a list of ideas."
+    ],
+    "includes": ["96-page ebook (PDF + EPUB)", "Offer-planning workbook", "12-month growth calendar"],
+    "info": { "Format": "PDF, EPUB", "Length": "96 pages", "File size": "9 MB", "License": "Personal use" },
+    "file": "slow-growth.zip"
+  },
+  {
+    "id": "field-notes-system",
+    "slug": "field-notes-notion-system",
+    "title": "Field Notes System",
+    "category": "templates",
+    "price": 2900,
+    "tone": "beige",
+    "featured": true,
+    "summary": "A Notion workspace for ideas, projects and clients — calm, minimal and fully linked.",
+    "description": [
+      "Field Notes is the Notion system the studio runs on. It connects an idea garden, project boards, a client CRM and a simple content calendar, so nothing lives in five different apps.",
+      "It is deliberately minimal: a handful of databases, clear views and no automation you have to maintain."
+    ],
+    "includes": ["Duplicable Notion template", "Setup guide (PDF)", "Video walkthrough (18 min)"],
+    "info": { "Format": "Notion template", "Requires": "Free Notion account", "File size": "Link + 4 MB PDF", "License": "Personal & commercial use" },
+    "file": "field-notes-system.zip"
+  },
+  {
+    "id": "editorial-portfolio-kit",
+    "slug": "editorial-portfolio-kit",
+    "title": "Editorial Portfolio Kit",
+    "category": "templates",
+    "price": 3900,
+    "tone": "charcoal",
+    "featured": true,
+    "summary": "Figma layouts for presenting creative work like a printed magazine.",
+    "description": [
+      "Forty editorial page layouts for case studies, project pages and pitch decks. Built on an 8pt grid with auto-layout, typographic styles and swappable image frames.",
+      "Use it for your portfolio site, a PDF portfolio or client presentations."
+    ],
+    "includes": ["Figma file with 40 layouts", "Type & colour style library", "Export presets for PDF and web"],
+    "info": { "Format": "Figma", "Layouts": "40", "File size": "62 MB", "License": "Personal & commercial use" },
+    "file": "editorial-portfolio-kit.zip"
+  },
+  {
+    "id": "proposal-invoice-set",
+    "slug": "proposal-and-invoice-set",
+    "title": "Proposal & Invoice Set",
+    "category": "templates",
+    "price": 1800,
+    "tone": "olive",
+    "featured": false,
+    "summary": "Elegant, editable documents for proposals, contracts and invoices.",
+    "description": [
+      "Six business documents designed to make small studios look as considered as their work: a project proposal, scope of work, contract outline, invoice, receipt and project wrap-up.",
+      "Available for Google Docs, Pages and Word."
+    ],
+    "includes": ["6 document templates", "Google Docs, Pages & Word versions", "Writing prompts for each section"],
+    "info": { "Format": "DOCX, Pages, Google Docs", "Documents": "6", "File size": "12 MB", "License": "Personal & commercial use" },
+    "file": "proposal-invoice-set.zip"
+  },
+  {
+    "id": "brand-from-scratch",
+    "slug": "brand-from-scratch",
+    "title": "Brand from Scratch",
+    "category": "guides",
+    "price": 1500,
+    "tone": "sage",
+    "featured": true,
+    "summary": "A step-by-step guide to naming, positioning and designing a personal brand.",
+    "description": [
+      "A focused guide to the decisions behind a personal brand: what you stand for, who you serve, how you sound and how it all looks.",
+      "Written for independent creators who want a brand that can grow with them for years."
+    ],
+    "includes": ["64-page guide (PDF)", "Brand worksheet pack", "Example brand book"],
+    "info": { "Format": "PDF", "Length": "64 pages", "File size": "14 MB", "License": "Personal use" },
+    "file": "brand-from-scratch.zip"
+  },
+  {
+    "id": "pricing-creative-work",
+    "slug": "pricing-creative-work",
+    "title": "Pricing Creative Work",
+    "category": "guides",
+    "price": 1200,
+    "tone": "forest",
+    "featured": false,
+    "summary": "How to price projects, products and retainers without guesswork.",
+    "description": [
+      "A short, direct guide to pricing: day rates versus value pricing, packaging services, pricing digital products and raising prices with existing clients.",
+      "Includes a calculator spreadsheet you can adapt to your own costs."
+    ],
+    "includes": ["40-page guide (PDF)", "Pricing calculator spreadsheet", "Email scripts for price changes"],
+    "info": { "Format": "PDF, XLSX", "Length": "40 pages", "File size": "6 MB", "License": "Personal use" },
+    "file": "pricing-creative-work.zip"
+  },
+  {
+    "id": "organic-shapes-library",
+    "slug": "organic-shapes-library",
+    "title": "Organic Shapes Library",
+    "category": "resources",
+    "price": 2200,
+    "tone": "beige",
+    "featured": false,
+    "summary": "240 hand-drawn botanical and biomorphic shapes as editable vectors.",
+    "description": [
+      "A library of leaves, stems, seeds and soft abstract forms, drawn by hand and cleaned into precise vectors.",
+      "Every shape comes as SVG, AI and PNG, ready for brand work, editorial layouts and web."
+    ],
+    "includes": ["240 vector shapes (SVG, AI)", "Transparent PNGs at 4000px", "Figma component library"],
+    "info": { "Format": "SVG, AI, PNG, Figma", "Assets": "240", "File size": "210 MB", "License": "Personal & commercial use" },
+    "file": "organic-shapes-library.zip"
+  },
+  {
+    "id": "paper-texture-pack",
+    "slug": "paper-texture-pack",
+    "title": "Paper Texture Pack",
+    "category": "resources",
+    "price": 1600,
+    "tone": "olive",
+    "featured": false,
+    "summary": "36 high-resolution scans of natural, handmade and recycled papers.",
+    "description": [
+      "Subtle paper textures scanned at 1200dpi to add warmth to digital work without looking like a filter.",
+      "Each texture is tileable and prepared for overlay blending."
+    ],
+    "includes": ["36 textures (JPG, 6000px)", "Seamless tile versions", "Photoshop & Figma usage notes"],
+    "info": { "Format": "JPG", "Assets": "36", "File size": "480 MB", "License": "Personal & commercial use" },
+    "file": "paper-texture-pack.zip"
+  },
+  {
+    "id": "creators-almanac",
+    "slug": "the-creators-almanac",
+    "title": "The Creator's Almanac",
+    "category": "future",
+    "status": "coming-soon",
+    "price": 0,
+    "tone": "charcoal",
+    "featured": false,
+    "summary": "A yearly planner and seasonal journal for creative work. Arriving next spring.",
+    "description": [
+      "A seasonal planner that follows the rhythm of a creative year: planting ideas, tending projects, harvesting results and resting.",
+      "Join the newsletter to hear first when it is ready."
+    ],
+    "includes": ["Printable and digital planner", "Seasonal reflection prompts", "Quarterly review templates"],
+    "info": { "Format": "PDF (print & tablet)", "Status": "In development" },
+    "file": ""
+  },
+  {
+    "id": "visual-voice-workshop",
+    "slug": "visual-voice-workshop",
+    "title": "Visual Voice Workshop",
+    "category": "future",
+    "status": "coming-soon",
+    "price": 0,
+    "tone": "sage",
+    "featured": false,
+    "summary": "A self-paced video workshop on finding a distinctive visual style.",
+    "description": [
+      "A small online workshop in six lessons on developing a visual voice that feels like yours — from references and constraints to a repeatable process.",
+      "Join the newsletter to hear first when enrolment opens."
+    ],
+    "includes": ["6 video lessons", "Exercise workbook", "Community critique session"],
+    "info": { "Format": "Video course", "Status": "In development" },
+    "file": ""
+  }
+]

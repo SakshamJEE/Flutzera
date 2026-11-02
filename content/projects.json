@@ -1,0 +1,104 @@
+[
+  {
+    "slug": "verdant-ceramics",
+    "title": "Verdant Ceramics",
+    "category": "Brand Identity",
+    "year": 2026,
+    "client": "Verdant Ceramics Studio",
+    "role": "Identity, packaging, art direction",
+    "tone": "sage",
+    "variant": 0,
+    "featured": true,
+    "summary": "A tactile identity for a small-batch ceramics studio, shaped by the forms of their glazes.",
+    "sections": [
+      { "heading": "The brief", "text": "Verdant makes small runs of tableware by hand. They needed an identity that felt as considered as their pieces, without competing with them." },
+      { "heading": "The approach", "text": "We traced the silhouettes of thirty pieces and reduced them to a family of soft forms. These became the logo mark, packaging die-lines and a set of stamps used directly on kraft boxes." },
+      { "heading": "The outcome", "text": "A calm, flexible system the studio applies themselves — from shelf labels to their online shop — with no designer needed for everyday work." }
+    ]
+  },
+  {
+    "slug": "field-and-folio",
+    "title": "Field & Folio",
+    "category": "Editorial",
+    "year": 2025,
+    "client": "Field & Folio Quarterly",
+    "role": "Editorial design, typography",
+    "tone": "beige",
+    "variant": 1,
+    "featured": true,
+    "summary": "Layout and type system for an independent quarterly on craft and slow living.",
+    "sections": [
+      { "heading": "The brief", "text": "A new print quarterly wanted a design system its two-person team could use issue after issue." },
+      { "heading": "The approach", "text": "A strict three-column grid, a serif for reading and one expressive display face, with room for photography to breathe. Every spread was tested at print size." },
+      { "heading": "The outcome", "text": "Four issues produced on the system so far, each with its own character but an unmistakable shared voice." }
+    ]
+  },
+  {
+    "slug": "seedling-illustrations",
+    "title": "Seedling Series",
+    "category": "Illustration",
+    "year": 2025,
+    "client": "Personal project",
+    "role": "Illustration, print",
+    "tone": "forest",
+    "variant": 2,
+    "featured": true,
+    "summary": "Fifty days of abstract botanical drawings, later released as a limited print set.",
+    "sections": [
+      { "heading": "The idea", "text": "One drawing a day for fifty days, using only three shapes: a curve, a seed and a line." },
+      { "heading": "The process", "text": "The constraint pushed each drawing toward abstraction. Halfway through, the forms stopped looking like plants and started looking like a language." },
+      { "heading": "The result", "text": "A series of twelve risograph prints and the vector library now sold in the shop as the Organic Shapes Library." }
+    ]
+  },
+  {
+    "slug": "nocturne-app",
+    "title": "Nocturne",
+    "category": "Digital",
+    "year": 2026,
+    "client": "Nocturne Labs",
+    "role": "Product design, design system",
+    "tone": "charcoal",
+    "variant": 3,
+    "featured": false,
+    "summary": "Interface and design system for a sleep and wind-down app that avoids screen glare.",
+    "sections": [
+      { "heading": "The brief", "text": "Nocturne helps people wind down in the evening. Its interface needed to be calm, legible in the dark and free of attention tricks." },
+      { "heading": "The approach", "text": "A warm, low-contrast night palette tuned for accessibility, slow transitions and a type scale that stays readable at low brightness." },
+      { "heading": "The outcome", "text": "A design system of 60 components and a measurable increase in evening session completion." }
+    ]
+  },
+  {
+    "slug": "atelier-moss",
+    "title": "Atelier Moss",
+    "category": "Brand Identity",
+    "year": 2024,
+    "client": "Atelier Moss",
+    "role": "Naming support, identity, website",
+    "tone": "olive",
+    "variant": 1,
+    "featured": false,
+    "summary": "Identity and website for an interior architecture practice working with natural materials.",
+    "sections": [
+      { "heading": "The brief", "text": "A young practice needed a presence as quiet and material as their interiors." },
+      { "heading": "The approach", "text": "An understated wordmark, a palette sampled from stone, oak and linen, and a website built around large photography and short, honest writing." },
+      { "heading": "The outcome", "text": "A brand that wins the right clients: most enquiries now mention the website by name." }
+    ]
+  },
+  {
+    "slug": "almanac-essays",
+    "title": "Almanac Essays",
+    "category": "Editorial",
+    "year": 2024,
+    "client": "Personal project",
+    "role": "Writing, book design",
+    "tone": "sage",
+    "variant": 0,
+    "featured": false,
+    "summary": "A self-published essay collection, designed and typeset from cover to colophon.",
+    "sections": [
+      { "heading": "The idea", "text": "Collect a year of newsletter essays into one object worth keeping." },
+      { "heading": "The process", "text": "Writing, editing, typesetting and cover design done in one place, so every decision served the reading experience." },
+      { "heading": "The result", "text": "A small first run that sold out, and the foundation for The Quiet Studio ebook." }
+    ]
+  }
+]
