@@ -2,6 +2,7 @@
 const $ = (s, root = document) => root.querySelector(s);
 const $$ = (s, root = document) => [...root.querySelectorAll(s)];
 const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const BASE = document.documentElement.dataset.base || ''; // '/Flutzera' on GitHub Pages
 
 // ---- Cart (localStorage, product ids only — prices are resolved on the server) ----
 const CART_KEY = 'cart';
@@ -60,7 +61,9 @@ for (const scope of $$('[data-filter-scope]')) {
   const sort = $('[data-sort]', scope);
   const count = $('[data-count]', scope);
   const empty = $('[data-empty]', scope);
-  let category = chips.find((c) => c.getAttribute('aria-pressed') === 'true')?.dataset.filter || 'all';
+  const fromUrl = new URLSearchParams(location.search).get('category');
+  let category = (chips.some((c) => c.dataset.filter === fromUrl) && fromUrl) || chips.find((c) => c.getAttribute('aria-pressed') === 'true')?.dataset.filter || 'all';
+  chips.forEach((c) => c.setAttribute('aria-pressed', c.dataset.filter === category));
 
   const sorters = {
     featured: (a, b) => a.dataset.index - b.dataset.index,
@@ -99,11 +102,11 @@ for (const scope of $$('[data-filter-scope]')) {
 $$('[data-add-to-cart]').forEach((btn) => btn.addEventListener('click', () => {
   setCart([...getCart(), btn.dataset.addToCart]);
   btn.textContent = 'Added — view cart';
-  btn.onclick = () => (location.href = '/cart');
+  btn.onclick = () => (location.href = `${BASE}/cart`);
 }));
 $$('[data-buy-now]').forEach((btn) => btn.addEventListener('click', () => {
   setCart([...getCart(), btn.dataset.buyNow]);
-  location.href = '/cart';
+  location.href = `${BASE}/cart`;
 }));
 
 // ---- Cart page ----
@@ -124,7 +127,7 @@ if (cartEl) {
       li.innerHTML = `<div><p class="eyebrow"></p><a></a></div><span class="price"></span><button type="button" class="cart__remove">Remove</button>`;
       li.querySelector('.eyebrow').textContent = p.category;
       li.querySelector('a').textContent = p.title;
-      li.querySelector('a').href = `/shop/${p.slug}`;
+      li.querySelector('a').href = `${BASE}/shop/${p.slug}`;
       li.querySelector('.price').textContent = fmt.format(p.price / 100);
       const remove = li.querySelector('button');
       remove.setAttribute('aria-label', `Remove ${p.title}`);
@@ -142,13 +145,14 @@ if (cartEl) {
     status.className = 'form-status';
     status.textContent = 'Opening secure checkout…';
     try {
-      const res = await fetch('/api/checkout', {
+      const res = await fetch(`${BASE}/api/checkout`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         body: JSON.stringify({ items: getCart() }),
       });
-      const data = await res.json();
-      if (!res.ok || !data.url) throw new Error(data.error || 'Checkout could not be started.');
+      // Static hosting (GitHub Pages) has no API and answers with HTML, so json() can fail.
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok || !data.url) throw new Error(data.error || 'Checkout is not open yet. No charge was made.');
       location.href = data.url;
     } catch (err) {
       status.className = 'form-status is-error';
@@ -177,7 +181,8 @@ $$('[data-api-form]').forEach((form) => form.addEventListener('submit', async (e
       headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
       body: JSON.stringify(Object.fromEntries(new FormData(form))),
     });
-    const data = await res.json();
+    const data = await res.json().catch(() => null);
+    if (!data) throw new Error('This form is not connected yet. Please email instead — the address is in the footer.');
     if (!res.ok) throw new Error(data.error || 'Something went wrong. Please try again.');
     form.reset();
     status.className = 'form-status is-success';

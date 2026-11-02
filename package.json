@@ -4,10 +4,13 @@
   "private": true,
   "type": "module",
   "description": "Personal brand portfolio + digital product store. Zero dependencies.",
-  "engines": { "node": ">=22.9" },
+  "engines": {
+    "node": ">=22.9"
+  },
   "scripts": {
     "start": "node --env-file-if-exists=.env server.js",
     "dev": "node --watch --env-file-if-exists=.env server.js",
-    "test": "node --test"
+    "test": "node --test",
+    "build": "node build.js"
   }
 }
