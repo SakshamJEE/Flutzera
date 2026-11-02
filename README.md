@@ -9,6 +9,8 @@
 ![Payments](https://img.shields.io/badge/payments-Stripe%20Checkout-A8B5A0?style=flat-square&logo=stripe&logoColor=292D29)
 ![Tests](https://img.shields.io/badge/tests-node%3Atest-34483B?style=flat-square)
 
+**[🌐 Live preview](https://sakshamjee.github.io/Flutzera/)** · static showcase on GitHub Pages
+
 <img src="docs/screenshot.jpg" alt="Flutzera home page: editorial headline beside an abstract botanical arch illustration" width="860">
 
 </div>
@@ -183,6 +185,16 @@ sequenceDiagram
 **Motion:** slow leaf sway, drifting shapes, fade-in as you scroll and gentle parallax. All of it turns off when the visitor's device asks for reduced motion.
 
 ## 🌍 Deploying
+
+### GitHub Pages (static preview)
+
+Every push to `main` runs [`.github/workflows/pages.yml`](.github/workflows/pages.yml). It runs the tests, builds static HTML with `npm run build`, and publishes the result to **https://sakshamjee.github.io/Flutzera/**.
+
+Pages has no server, so browsing, filters and the cart work there, but checkout, downloads, the contact form and the newsletter do not. Each of them shows a clear "not available yet" message instead.
+
+> One-time setup: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+
+### Full site (with payments)
 
 Any host that runs Node works: Render, Railway, Fly.io or a VPS.
 

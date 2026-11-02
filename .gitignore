@@ -7,3 +7,4 @@ data/*.jsonl
 # Paid product files: never commit them (a public repo would give them away)
 private/downloads/*
 !private/downloads/README.md
+dist/
